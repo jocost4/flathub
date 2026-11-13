@@ -20,7 +20,8 @@ finish-args:
   - --talk-name=org.freedesktop.portal.Notifications
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --own-name=org.kde.StatusNotifierItem.*
+  - --own-name=org.kde.StatusNotifierItem-*
+  - --own-name=org.freedesktop.StatusNotifierItem-*
 
 modules:
   - name: sharex
