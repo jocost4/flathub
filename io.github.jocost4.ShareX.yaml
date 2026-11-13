@@ -19,9 +19,9 @@ finish-args:
   - --talk-name=org.freedesktop.portal.ScreenCast
   - --talk-name=org.freedesktop.portal.Notifications
   - --talk-name=org.freedesktop.Notifications
+  - --talk-name=com.canonical.AppMenu.Registrar
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --own-name=org.kde.StatusNotifierItem-*
-  - --own-name=org.freedesktop.StatusNotifierItem-*
+  - --own-name=org.kde.*
 
 modules:
   - name: sharex
